@@ -1,13 +1,109 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* @font-face {
+  font-family: Manrope;
+  src: url(https://fonts.google.com/specimen/Manrope);
+} */
+
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-family: "Manrope";
 }
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #202632;
+}
+
+#root {
+  width: 528px;
+  height: auto;
+  background-color: #313a49;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.4) 10px 20px 30px,
+    rgba(0, 0, 0, 0.3) 10px 1px 53px 3px, rgba(1, 0, 0, 0.2) 0px -1px 3px inset;
+  display: grid;
+  grid-template-columns: auto;
+}
+@media only screen and (max-width: 400px) {
+  #root {
+    width: 90%;
+  }
+  .title {
+    font-size: 12px;
+  }
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-top: 10px;
+  height: auto;
+  padding: 10px 0;
+}
+/* @media only screen and (max-width: 400px) {
+  .card {
+    height: auto;
+  }
+} */
+.title {
+  color: hsl(150, 100%, 66%);
+  font-weight: 600;
+}
+
+.advice {
+  font-family: "Manrope";
+  font-size: 28px;
+  font-weight: 800;
+  color: hsl(193, 38%, 86%);
+  padding: 20px;
+  grid-row: 2 / span 3;
+}
+@media only screen and (max-width: 400px) {
+  .advice {
+    font-size: 22px;
+  }
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#mDivider {
+  display: none;
+}
+@media only screen and (max-width: 400px) {
+  #mDivider {
+    display: inherit;
+  }
+  #dDivider {
+    display: none;
+  }
+}
+.action {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  margin-top: 30px;
+  margin-bottom: -40px;
+  cursor: pointer;
+}
+.action:hover {
+  box-shadow: 0 0 23px hsl(150, 100%, 66%);
+}
+/* @media only screen and (max-width: 400px) {
+  .action {
+    margin-bottom: -40px;
+  }
+} */
