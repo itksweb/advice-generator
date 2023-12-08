@@ -61,4 +61,4 @@ const fetchNewAdvice = () => {
 ## Author
 
 - WhatsApp - [Kingsley Ikpefan](https://wa.me/2348060719978)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/itksweb)
+- Frontend Mentor - [@itksweb](https://www.frontendmentor.io/profile/itksweb)
