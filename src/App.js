@@ -1,4 +1,4 @@
-import { useState, Fragment } from "react";
+import { useState} from "react";
 import divider from "./pattern-divider-desktop.svg";
 import divide from "./pattern-divider-mobile.svg";
 import button from "./icon-dice.svg";
@@ -22,7 +22,7 @@ function App() {
   };
 
   return (
-    <Fragment>
+    <>
       <div className="card">
         <div className="title">ADVICE #{advice.id}</div>
         <div className="advice"> "{advice.advice}" </div>
@@ -36,7 +36,7 @@ function App() {
           <img src={button} alt="button" />
         </div>
       </div>
-    </Fragment>
+    </>
   );
 }
 
