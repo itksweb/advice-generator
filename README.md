@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-=======
-# Frontend Mentor - Advice generator app solution
+# Advice generator app solution
 
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
+  - [Screenshot](#screenshot)
   - [The challenge](#the-challenge)
   - [Links](#links)
 - [My process](#my-process)
@@ -24,7 +15,11 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Overview
 
-A simple advice generator app. It fetches a new advice from the provided api everytime the button is clicked
+A simple but yet functional advice (or quote) generator. Just click or tap on the green button and a random advice will replace the previous in the display. It fetches a new advice from the provided api everytime the button is clicked
+
+### Screenshot
+
+![](./screenshot.jpg)
 
 ### The challenge
 
@@ -36,8 +31,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/itksweb/dvice-generator-app](https://github.com/itksweb/dvice-generator-app)
-- Live Site URL: [Add live site URL here](https://itksweb.github.io/dvice-generator-app/)
+- Solution URL: [https://github.com/itksweb/advice-generator](https://github.com/itksweb/advice-generator)
+- Live Site URL: [https://itksweb.github.io/advice-generator](https://itksweb.github.io/advice-generator)
+- API used - [https://api.adviceslip.com/advice](https://api.adviceslip.com/advice)
 
 ## My process
 
@@ -71,5 +67,5 @@ const fetchNewAdvice = () => {
 ## Author
 
 - WhatsApp - [Kingsley Ikpefan](https://wa.me/2348060719978)
+- LinkedIn - [here](https://www.linkedin.com/in/kingsleyikpefan)
 - Frontend Mentor - [@itksweb](https://www.frontendmentor.io/profile/itksweb)
->>>>>>> c9cb1754067e58fca817a31b0f4377614c5de992
